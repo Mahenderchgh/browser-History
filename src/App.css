@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #3367d6;
+  width: 100%;
+  height: 40px;
+  justify-content: space-around;
+}
+.input-container {
+  background-color: #3367d6;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.input-element {
+  background-color: #3367d6;
+  outline: none;
+  width: 400px;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  min-width: 400px;
+}
+.list-container {
+  width: 100%;
+  height: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ececec;
+  padding: 10px;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 10px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo-element {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.name {
+  color: #475569;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.website {
+  color: #64748b;
+  font-size: 10px;
+}
+.delete-button {
+  width: 40px;
+  height: 40px;
+  border-style: none;
+  background-color: transparent;
+  outline: none;
+  margin-left: auto;
+}
+.delete-icon {
+  height: 20px;
+  width: 20px;
+}
+.details {
+  color: #64748b;
+  font-size: 20px;
+}
+.empty-container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.time {
+  color: #64748b;
+  font-weight: bold;
+  font-size: small;
+  margin-right: 20%;
+  min-width: 60px;
+}
